@@ -1,7 +1,7 @@
 const request = require("request");
 
 const geoCity = (cityName, cityData) => {
-  const url = `http://api.weatherstack.com/current?access_key=9b4a4eb1cb991fd1c636e994dabe010a&query=${cityName}&units=f`;
+  const url = ``;
   request(
     {
       url: url,
