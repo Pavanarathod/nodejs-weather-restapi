@@ -7,3 +7,6 @@ geoCity("Shimoga", (error, result) => {
 
   console.log(result);
 });
+
+const myName = "Pavan Kumar";
+const repeatMyName = () => myName;
